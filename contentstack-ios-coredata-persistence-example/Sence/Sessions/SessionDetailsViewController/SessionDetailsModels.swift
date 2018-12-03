@@ -16,7 +16,7 @@ enum SessionDetails
     struct Request
     {
         func fetchSession(sessionID: Int) -> Session {
-            return Session.objects(with: NSPredicate(format: "sessionId = \(sessionID)")).firstObject() as! Session
+            return Session.findAll(NSPredicate(format: "sessionId = \(sessionID)"), MOC: AppDelegate.shared.persistentContainer.viewContext)?.first as! Session
         }
     }
     struct Response

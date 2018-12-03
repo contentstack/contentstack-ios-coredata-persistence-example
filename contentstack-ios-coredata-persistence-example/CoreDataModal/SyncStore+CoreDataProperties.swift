@@ -8,9 +8,9 @@
 
 import Foundation
 import CoreData
+import ContentstackPersistenceCoreData
 
-
-extension SyncStore {
+extension SyncStore: SyncStoreProtocol {
 
     @nonobjc public class func fetchRequest() -> NSFetchRequest<SyncStore> {
         return NSFetchRequest<SyncStore>(entityName: "SyncStore")
