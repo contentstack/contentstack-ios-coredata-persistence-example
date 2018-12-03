@@ -8,7 +8,7 @@
 //
 
 import UIKit
-import Realm
+import CoreData
 protocol SessionListDisplayLogic: class
 {
     func loadSessionList(response: SessionList.Response)
@@ -17,7 +17,7 @@ protocol SessionListDisplayLogic: class
 
 class SessionListViewController: UIViewController, SessionListDisplayLogic
 {
-    var result : RLMResults<Session>?
+    var result : [Session]?
     
     var interactor: SessionListBusinessLogic?
     var router: (NSObjectProtocol & SessionListRoutingLogic & SessionListDataPassing)?
@@ -79,7 +79,7 @@ class SessionListViewController: UIViewController, SessionListDisplayLogic
         fetchSession()
         self.tableView.tableFooterView = UIView()
         self.tableView.estimatedRowHeight = 999
-        self.tableView.rowHeight = UITableViewAutomaticDimension
+        self.tableView.rowHeight = UITableView.automaticDimension
         self.tableView.registerNib(SessionCell.self)
         self.title = "SESSIONS"
     }
@@ -116,7 +116,7 @@ extension SessionListViewController: UITableViewDelegate, UITableViewDataSource 
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell : SessionCell = tableView.dequeueReusableCell(for: indexPath)
-        cell.session = self.result!.object(at: UInt(indexPath.row))
+        cell.session = self.result![indexPath.row]
         return cell
     }
     
@@ -126,6 +126,6 @@ extension SessionListViewController: UITableViewDelegate, UITableViewDataSource 
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
 //        tableView.deselectRow(at: indexPath, animated: true)
-        self.interactor?.showSessionDetails(self.result!.object(at: UInt(indexPath.row)).sessionId)
+        self.interactor?.showSessionDetails(Int(self.result![indexPath.row].sessionId))
     }
 }

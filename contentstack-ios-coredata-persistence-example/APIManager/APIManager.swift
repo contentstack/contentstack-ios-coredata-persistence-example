@@ -8,12 +8,12 @@
 
 import UIKit
 import Contentstack
-import ContentstackPersistenceRealm
+import ContentstackPersistenceCoreData
 
 class StackConfig {
     static var APIKey           = "***REMOVED***"
-    static var AccessToken    = "ACCESS_TOKEN"
-    static var EnvironmentName  = "ENVIRONMENT"
+    static var AccessToken      = "***REMOVED***"
+    static var EnvironmentName  = "web"
     static var _config : Config {
         get {
             let config = Config()
@@ -25,11 +25,10 @@ class StackConfig {
 
 enum APIManger {
     
-    static var realmStore = RealmStore(realm: try? RLMRealm(configuration: RLMRealmConfiguration.default()))
-    
+    static var coredataManager = CoreDataStore(contenxt: AppDelegate.shared.persistentContainer.newBackgroundContext())
     static var stack : Stack = Contentstack.stack(withAPIKey: StackConfig.APIKey, accessToken: StackConfig.AccessToken, environmentName: StackConfig.EnvironmentName, config:StackConfig._config)
     
-    static var syncManager : SyncManager = SyncManager(stack: APIManger.stack, persistance: APIManger.realmStore!)
+    static var syncManager : SyncManager = SyncManager(stack: APIManger.stack, persistance: APIManger.coredataManager!)
 
     static func sync () {
         self.syncManager.sync({ (percentage, isSynccompleted, error) in

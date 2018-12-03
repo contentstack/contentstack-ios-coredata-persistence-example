@@ -8,20 +8,21 @@
 //
 
 import UIKit
-import Realm
+import ContentstackPersistenceCoreData
+import CoreData
 enum SessionList
 {
   // MARK: Use cases
     struct Request
     {
-        func getSessions() -> RLMResults<Session> {
-            return Session.allObjects().sortedResults(using: [RLMSortDescriptor(keyPath: "startTime", ascending: true)]) as! RLMResults<Session>
+        func getSessions() -> [Session] {
+            return Session.findAll(MOC: AppDelegate.shared.persistentContainer.viewContext)
         }
     }
     
     struct Response
     {
-        var sessionArray : RLMResults<Session>
+        var sessionArray : [Session]
     }
     
     struct ViewModel
