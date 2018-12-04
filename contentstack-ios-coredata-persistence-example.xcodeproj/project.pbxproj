@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0FD220C621B55FF800972186 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 0FD220C421B55FF800972186 /* LICENSE */; };
+		0FD220C721B55FF800972186 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 0FD220C521B55FF800972186 /* README.md */; };
 		0FFE564821AE666800A42FA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FFE564721AE666800A42FA5 /* AppDelegate.swift */; };
 		0FFE565021AE666800A42FA5 /* contentstack_ios_coredata_persistence_example.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0FFE564E21AE666800A42FA5 /* contentstack_ios_coredata_persistence_example.xcdatamodeld */; };
 		0FFE565221AE666900A42FA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FFE565121AE666900A42FA5 /* Assets.xcassets */; };
@@ -61,6 +63,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0FD220C421B55FF800972186 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		0FD220C521B55FF800972186 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		0FFE564421AE666800A42FA5 /* contentstack-ios-coredata-persistence-example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "contentstack-ios-coredata-persistence-example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FFE564721AE666800A42FA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0FFE564F21AE666800A42FA5 /* contentstack_ios_coredata_persistence_example.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = contentstack_ios_coredata_persistence_example.xcdatamodel; sourceTree = "<group>"; };
@@ -134,6 +138,8 @@
 		0FFE563B21AE666800A42FA5 = {
 			isa = PBXGroup;
 			children = (
+				0FD220C421B55FF800972186 /* LICENSE */,
+				0FD220C521B55FF800972186 /* README.md */,
 				0FFE564621AE666800A42FA5 /* contentstack-ios-coredata-persistence-example */,
 				0FFE564521AE666800A42FA5 /* Products */,
 				521AEFC594C0BDA9C48CF1E5 /* Pods */,
@@ -435,12 +441,14 @@
 				0FFE565521AE666900A42FA5 /* LaunchScreen.storyboard in Resources */,
 				0FFE565221AE666900A42FA5 /* Assets.xcassets in Resources */,
 				0FFE56C121AE67F700A42FA5 /* SF-Pro-Display-UltralightItalic.otf in Resources */,
+				0FD220C621B55FF800972186 /* LICENSE in Resources */,
 				0FFE56BA21AE67F700A42FA5 /* SF-Pro-Display-RegularItalic.otf in Resources */,
 				0FFE56C221AE67F700A42FA5 /* SF-Pro-Display-LightItalic.otf in Resources */,
 				0FFE56BB21AE67F700A42FA5 /* SF-Pro-Display-Light.otf in Resources */,
 				0FFE56BC21AE67F700A42FA5 /* SF-Pro-Display-Regular.otf in Resources */,
 				0FFE56CB21AE67F700A42FA5 /* SplashScreen.storyboard in Resources */,
 				0FFE56BF21AE67F700A42FA5 /* SF-Pro-Display-MediumItalic.otf in Resources */,
+				0FD220C721B55FF800972186 /* README.md in Resources */,
 				0FFE56BE21AE67F700A42FA5 /* SF-Pro-Display-Medium.otf in Resources */,
 				0FFE56C321AE67F700A42FA5 /* SF-Pro-Display-ThinItalic.otf in Resources */,
 				0FFE56BD21AE67F700A42FA5 /* SF-Pro-Display-Bold.otf in Resources */,
