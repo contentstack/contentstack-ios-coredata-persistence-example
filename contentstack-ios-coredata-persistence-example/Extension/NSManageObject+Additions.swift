@@ -9,28 +9,28 @@
 import Foundation
 import CoreData
 extension NSManagedObjectContext {
-    class func findAll<T:NSManagedObject>(_ entity: T.Type, predicate: NSPredicate? = nil, sortBy: [NSSortDescriptor]? = nil, MOC: NSManagedObjectContext) -> [T] {
+    func findAll<T:NSManagedObject>(_ entity: T.Type, predicate: NSPredicate? = nil, sortBy: [NSSortDescriptor]? = nil) -> [T] {
         let fetchRequest = T.fetchRequest() as! NSFetchRequest<T>
         
         fetchRequest.returnsObjectsAsFaults = false
         fetchRequest.predicate = predicate
         fetchRequest.sortDescriptors = sortBy
         
-        let fetchedResult = try! MOC.fetch(fetchRequest)
+        let fetchedResult = try! self.fetch(fetchRequest)
         return fetchedResult
     }
     
-    class func findOrCreate<T:NSManagedObject>(_entity: T.Type, predicate: NSPredicate? = nil, MOC: NSManagedObjectContext) -> T {
+    func findOrCreate<T:NSManagedObject>(_entity: T.Type, predicate: NSPredicate? = nil) -> T {
         let fetchRequest = T.fetchRequest() as! NSFetchRequest<T>
         
         fetchRequest.returnsObjectsAsFaults = false
         fetchRequest.predicate = predicate
         
-        if let fetchedResult = try? MOC.fetch(fetchRequest), let objectModal = fetchedResult.first {
+        if let fetchedResult = try? self.fetch(fetchRequest), let objectModal = fetchedResult.first {
             return objectModal
         }
-        let entity = NSEntityDescription.entity(forEntityName: T.entity().name!, in: MOC)
-        let objectModal = NSManagedObject(entity: entity!, insertInto: MOC)
+        let entity = NSEntityDescription.entity(forEntityName: T.entity().name!, in: self)
+        let objectModal = NSManagedObject(entity: entity!, insertInto: self)
 
         return objectModal as! T
     }
