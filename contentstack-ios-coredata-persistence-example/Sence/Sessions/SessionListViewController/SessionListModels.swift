@@ -16,7 +16,7 @@ enum SessionList
     struct Request
     {
         func getSessions() -> [Session] {
-            return Session.findAll(MOC: AppDelegate.shared.persistentContainer.viewContext)
+            return AppDelegate.shared.persistentContainer.viewContext.findAll(Session.self)
         }
     }
     

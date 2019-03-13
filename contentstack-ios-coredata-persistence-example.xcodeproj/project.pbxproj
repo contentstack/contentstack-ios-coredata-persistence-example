@@ -58,7 +58,7 @@
 		0FFE56FD21AE6DA700A42FA5 /* Assets+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FFE56F721AE6DA700A42FA5 /* Assets+CoreDataProperties.swift */; };
 		0FFE56FE21AE6DA700A42FA5 /* Session+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FFE56F821AE6DA700A42FA5 /* Session+CoreDataClass.swift */; };
 		0FFE56FF21AE6DA700A42FA5 /* Session+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FFE56F921AE6DA700A42FA5 /* Session+CoreDataProperties.swift */; };
-		0FFE570121AE715B00A42FA5 /* NSManageObject+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FFE570021AE715B00A42FA5 /* NSManageObject+Additions.swift */; };
+		0FFF780D222FDD9B00C114C2 /* NSManageObject+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FFE570021AE715B00A42FA5 /* NSManageObject+Additions.swift */; };
 		47813DC2ABB362EE0A08663C /* Pods_contentstack_ios_coredata_persistence_example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B25EB23383703C02CB91AC4 /* Pods_contentstack_ios_coredata_persistence_example.framework */; };
 /* End PBXBuildFile section */
 
@@ -516,6 +516,7 @@
 				0FFE56E421AE67F800A42FA5 /* APIManager.swift in Sources */,
 				0FFE56DF21AE67F800A42FA5 /* Result.swift in Sources */,
 				0FFE56D421AE67F700A42FA5 /* SessionCell.swift in Sources */,
+				0FFF780D222FDD9B00C114C2 /* NSManageObject+Additions.swift in Sources */,
 				0FFE56FD21AE6DA700A42FA5 /* Assets+CoreDataProperties.swift in Sources */,
 				0FFE56D521AE67F700A42FA5 /* SessionListInteractor.swift in Sources */,
 				0FFE56C521AE67F700A42FA5 /* SplashScreenWorker.swift in Sources */,
@@ -538,7 +539,6 @@
 				0FFE56D921AE67F800A42FA5 /* SessionListRouter.swift in Sources */,
 				0FFE56FA21AE6DA700A42FA5 /* SyncStore+CoreDataProperties.swift in Sources */,
 				0FFE56DD21AE67F800A42FA5 /* UIFont+Additions.swift in Sources */,
-				0FFE570121AE715B00A42FA5 /* NSManageObject+Additions.swift in Sources */,
 				0FFE56E121AE67F800A42FA5 /* Data+Additions.swift in Sources */,
 				0FFE564821AE666800A42FA5 /* AppDelegate.swift in Sources */,
 				0FFE56DC21AE67F800A42FA5 /* UIColor+Additions.swift in Sources */,
