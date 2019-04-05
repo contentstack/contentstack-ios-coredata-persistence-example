@@ -6,5 +6,5 @@ target 'contentstack-ios-coredata-persistence-example' do
   use_frameworks!
 
   # Pods for contentstack-ios-coredata-persistence-example
-  pod 'ContentstackPersistenceCoreData', :git => 'https://github.com/contentstack/contentstack-ios-persistence.git'
+  pod 'ContentstackPersistenceCoreData'
 end
