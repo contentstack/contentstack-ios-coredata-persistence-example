@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		0FD220C621B55FF800972186 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 0FD220C421B55FF800972186 /* LICENSE */; };
 		0FD220C721B55FF800972186 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 0FD220C521B55FF800972186 /* README.md */; };
+		0FF706BF22572272001158B9 /* Assets+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF706BD22572272001158B9 /* Assets+CoreDataClass.swift */; };
+		0FF706C022572272001158B9 /* Assets+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF706BE22572272001158B9 /* Assets+CoreDataProperties.swift */; };
 		0FFE564821AE666800A42FA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FFE564721AE666800A42FA5 /* AppDelegate.swift */; };
 		0FFE565021AE666800A42FA5 /* contentstack_ios_coredata_persistence_example.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0FFE564E21AE666800A42FA5 /* contentstack_ios_coredata_persistence_example.xcdatamodeld */; };
 		0FFE565221AE666900A42FA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FFE565121AE666900A42FA5 /* Assets.xcassets */; };
@@ -54,8 +56,6 @@
 		0FFE56E521AE67F800A42FA5 /* ImageDownloadOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FFE56B821AE67F700A42FA5 /* ImageDownloadOperation.swift */; };
 		0FFE56FA21AE6DA700A42FA5 /* SyncStore+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FFE56F421AE6DA700A42FA5 /* SyncStore+CoreDataProperties.swift */; };
 		0FFE56FB21AE6DA700A42FA5 /* SyncStore+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FFE56F521AE6DA700A42FA5 /* SyncStore+CoreDataClass.swift */; };
-		0FFE56FC21AE6DA700A42FA5 /* Assets+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FFE56F621AE6DA700A42FA5 /* Assets+CoreDataClass.swift */; };
-		0FFE56FD21AE6DA700A42FA5 /* Assets+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FFE56F721AE6DA700A42FA5 /* Assets+CoreDataProperties.swift */; };
 		0FFE56FE21AE6DA700A42FA5 /* Session+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FFE56F821AE6DA700A42FA5 /* Session+CoreDataClass.swift */; };
 		0FFE56FF21AE6DA700A42FA5 /* Session+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FFE56F921AE6DA700A42FA5 /* Session+CoreDataProperties.swift */; };
 		0FFF780D222FDD9B00C114C2 /* NSManageObject+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FFE570021AE715B00A42FA5 /* NSManageObject+Additions.swift */; };
@@ -65,6 +65,8 @@
 /* Begin PBXFileReference section */
 		0FD220C421B55FF800972186 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		0FD220C521B55FF800972186 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		0FF706BD22572272001158B9 /* Assets+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Assets+CoreDataClass.swift"; sourceTree = "<group>"; };
+		0FF706BE22572272001158B9 /* Assets+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Assets+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		0FFE564421AE666800A42FA5 /* contentstack-ios-coredata-persistence-example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "contentstack-ios-coredata-persistence-example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FFE564721AE666800A42FA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0FFE564F21AE666800A42FA5 /* contentstack_ios_coredata_persistence_example.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = contentstack_ios_coredata_persistence_example.xcdatamodel; sourceTree = "<group>"; };
@@ -113,8 +115,6 @@
 		0FFE56B821AE67F700A42FA5 /* ImageDownloadOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageDownloadOperation.swift; sourceTree = "<group>"; };
 		0FFE56F421AE6DA700A42FA5 /* SyncStore+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SyncStore+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		0FFE56F521AE6DA700A42FA5 /* SyncStore+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SyncStore+CoreDataClass.swift"; sourceTree = "<group>"; };
-		0FFE56F621AE6DA700A42FA5 /* Assets+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Assets+CoreDataClass.swift"; sourceTree = "<group>"; };
-		0FFE56F721AE6DA700A42FA5 /* Assets+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Assets+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		0FFE56F821AE6DA700A42FA5 /* Session+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Session+CoreDataClass.swift"; sourceTree = "<group>"; };
 		0FFE56F921AE6DA700A42FA5 /* Session+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Session+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		0FFE570021AE715B00A42FA5 /* NSManageObject+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSManageObject+Additions.swift"; sourceTree = "<group>"; };
@@ -348,8 +348,8 @@
 		0FFE56E721AE6B7400A42FA5 /* CoreDataModal */ = {
 			isa = PBXGroup;
 			children = (
-				0FFE56F621AE6DA700A42FA5 /* Assets+CoreDataClass.swift */,
-				0FFE56F721AE6DA700A42FA5 /* Assets+CoreDataProperties.swift */,
+				0FF706BD22572272001158B9 /* Assets+CoreDataClass.swift */,
+				0FF706BE22572272001158B9 /* Assets+CoreDataProperties.swift */,
 				0FFE56F821AE6DA700A42FA5 /* Session+CoreDataClass.swift */,
 				0FFE56F921AE6DA700A42FA5 /* Session+CoreDataProperties.swift */,
 				0FFE56F521AE6DA700A42FA5 /* SyncStore+CoreDataClass.swift */,
@@ -468,8 +468,9 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-contentstack-ios-coredata-persistence-example/Pods-contentstack-ios-coredata-persistence-example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-contentstack-ios-coredata-persistence-example/Pods-contentstack-ios-coredata-persistence-example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Contentstack/Contentstack.framework",
+				"${BUILT_PRODUCTS_DIR}/ContentstackPersistence/ContentstackPersistence.framework",
 				"${BUILT_PRODUCTS_DIR}/ContentstackPersistenceCoreData/ContentstackPersistenceCoreData.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -477,11 +478,12 @@
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Contentstack.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ContentstackPersistence.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ContentstackPersistenceCoreData.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-contentstack-ios-coredata-persistence-example/Pods-contentstack-ios-coredata-persistence-example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-contentstack-ios-coredata-persistence-example/Pods-contentstack-ios-coredata-persistence-example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		45E05BF6583A7FEA1BC4011C /* [CP] Check Pods Manifest.lock */ = {
@@ -517,7 +519,6 @@
 				0FFE56DF21AE67F800A42FA5 /* Result.swift in Sources */,
 				0FFE56D421AE67F700A42FA5 /* SessionCell.swift in Sources */,
 				0FFF780D222FDD9B00C114C2 /* NSManageObject+Additions.swift in Sources */,
-				0FFE56FD21AE6DA700A42FA5 /* Assets+CoreDataProperties.swift in Sources */,
 				0FFE56D521AE67F700A42FA5 /* SessionListInteractor.swift in Sources */,
 				0FFE56C521AE67F700A42FA5 /* SplashScreenWorker.swift in Sources */,
 				0FFE56E521AE67F800A42FA5 /* ImageDownloadOperation.swift in Sources */,
@@ -526,6 +527,7 @@
 				0FFE56D621AE67F700A42FA5 /* SessionListViewController.swift in Sources */,
 				0FFE56C921AE67F700A42FA5 /* SplashScreenPresenter.swift in Sources */,
 				0FFE56CA21AE67F700A42FA5 /* SplashScreenViewController.swift in Sources */,
+				0FF706BF22572272001158B9 /* Assets+CoreDataClass.swift in Sources */,
 				0FFE56DB21AE67F800A42FA5 /* UIView+Additions.swift in Sources */,
 				0FFE56C621AE67F700A42FA5 /* SplashScreenInteractor.swift in Sources */,
 				0FFE56DA21AE67F800A42FA5 /* SessionListWorker.swift in Sources */,
@@ -534,11 +536,11 @@
 				0FFE56FB21AE6DA700A42FA5 /* SyncStore+CoreDataClass.swift in Sources */,
 				0FFE56DE21AE67F800A42FA5 /* String+Addtions.swift in Sources */,
 				0FFE565021AE666800A42FA5 /* contentstack_ios_coredata_persistence_example.xcdatamodeld in Sources */,
-				0FFE56FC21AE6DA700A42FA5 /* Assets+CoreDataClass.swift in Sources */,
 				0FFE56C821AE67F700A42FA5 /* SplashScreenModels.swift in Sources */,
 				0FFE56D921AE67F800A42FA5 /* SessionListRouter.swift in Sources */,
 				0FFE56FA21AE6DA700A42FA5 /* SyncStore+CoreDataProperties.swift in Sources */,
 				0FFE56DD21AE67F800A42FA5 /* UIFont+Additions.swift in Sources */,
+				0FF706C022572272001158B9 /* Assets+CoreDataProperties.swift in Sources */,
 				0FFE56E121AE67F800A42FA5 /* Data+Additions.swift in Sources */,
 				0FFE564821AE666800A42FA5 /* AppDelegate.swift in Sources */,
 				0FFE56DC21AE67F800A42FA5 /* UIColor+Additions.swift in Sources */,
