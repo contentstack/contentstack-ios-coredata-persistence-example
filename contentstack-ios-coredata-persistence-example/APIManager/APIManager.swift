@@ -25,7 +25,7 @@ class StackConfig {
 
 enum APIManger {
     
-    static var coredataManager = CoreDataStore(contenxt: AppDelegate.shared.persistentContainer.newBackgroundContext())
+    static var coredataManager = CoreDataStore(context: AppDelegate.shared.persistentContainer.newBackgroundContext())
     static var stack : Stack = Contentstack.stack(withAPIKey: StackConfig.APIKey, accessToken: StackConfig.AccessToken, environmentName: StackConfig.EnvironmentName, config:StackConfig._config)
     
     static var syncManager : SyncManager = SyncManager(stack: APIManger.stack, persistance: APIManger.coredataManager!)
