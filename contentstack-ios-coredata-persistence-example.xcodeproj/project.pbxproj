@@ -466,20 +466,11 @@
 			files = (
 			);
 			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-contentstack-ios-coredata-persistence-example/Pods-contentstack-ios-coredata-persistence-example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Contentstack/Contentstack.framework",
-				"${BUILT_PRODUCTS_DIR}/ContentstackPersistence/ContentstackPersistence.framework",
-				"${BUILT_PRODUCTS_DIR}/ContentstackPersistenceCoreData/ContentstackPersistenceCoreData.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-contentstack-ios-coredata-persistence-example/Pods-contentstack-ios-coredata-persistence-example-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Contentstack.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ContentstackPersistence.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ContentstackPersistenceCoreData.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-contentstack-ios-coredata-persistence-example/Pods-contentstack-ios-coredata-persistence-example-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
