@@ -1,0 +1,25 @@
+PODS:
+  - Contentstack (3.15.0)
+  - ContentstackPersistence (0.1.1):
+    - Contentstack (~> 3.12)
+  - ContentstackPersistenceCoreData (0.1.1):
+    - Contentstack (~> 3.12)
+    - ContentstackPersistence (~> 0.1.1)
+
+DEPENDENCIES:
+  - ContentstackPersistenceCoreData
+
+SPEC REPOS:
+  trunk:
+    - Contentstack
+    - ContentstackPersistence
+    - ContentstackPersistenceCoreData
+
+SPEC CHECKSUMS:
+  Contentstack: 2f82e64408036f33d9b561e65cd5c359943362fa
+  ContentstackPersistence: d873e1d77946e320ae164dc4fee8076c315b24f1
+  ContentstackPersistenceCoreData: 92e4c2d73bb2fd985bd5d5153f71af7b85b8e82e
+
+PODFILE CHECKSUM: 58dfc6ebc0dff227e5e7b6c3e0c2e4a9353c429d
+
+COCOAPODS: 1.16.2
